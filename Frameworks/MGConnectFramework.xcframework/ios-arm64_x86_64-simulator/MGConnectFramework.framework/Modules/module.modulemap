@@ -1,0 +1,11 @@
+framework module MGConnectFramework {
+  umbrella header "MGConnectFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module MGConnectFramework.Swift {
+  header "MGConnectFramework-Swift.h"
+  requires objc
+}
