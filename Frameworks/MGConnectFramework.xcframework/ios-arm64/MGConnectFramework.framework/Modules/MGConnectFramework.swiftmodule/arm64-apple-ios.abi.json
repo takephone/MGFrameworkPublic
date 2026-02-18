@@ -16,6 +16,2499 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NetworkManager",
+        "printedName": "NetworkManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkManager",
+                "printedName": "MGConnectFramework.NetworkManager",
+                "usr": "s:18MGConnectFramework14NetworkManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework14NetworkManagerC6sharedACvpZ",
+            "mangledName": "$s18MGConnectFramework14NetworkManagerC6sharedACvpZ",
+            "moduleName": "MGConnectFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkManager",
+                    "printedName": "MGConnectFramework.NetworkManager",
+                    "usr": "s:18MGConnectFramework14NetworkManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework14NetworkManagerC6sharedACvgZ",
+                "mangledName": "$s18MGConnectFramework14NetworkManagerC6sharedACvgZ",
+                "moduleName": "MGConnectFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(endpoint:responseType:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Endpoint",
+                "printedName": "any MGConnectFramework.Endpoint",
+                "usr": "s:18MGConnectFramework8EndpointP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<τ_0_0, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework14NetworkManagerC7request8endpoint12responseType10completionyAA8Endpoint_p_xmys6ResultOyxs5Error_pGctSeRzlF",
+            "mangledName": "$s18MGConnectFramework14NetworkManagerC7request8endpoint12responseType10completionyAA8Endpoint_p_xmys6ResultOyxs5Error_pGctSeRzlF",
+            "moduleName": "MGConnectFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18MGConnectFramework14NetworkManagerC",
+        "mangledName": "$s18MGConnectFramework14NetworkManagerC",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MGConnectFramework.NetworkError.Type) -> MGConnectFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "MGConnectFramework.NetworkError",
+                    "usr": "s:18MGConnectFramework12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MGConnectFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "MGConnectFramework.NetworkError",
+                        "usr": "s:18MGConnectFramework12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18MGConnectFramework12NetworkErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s18MGConnectFramework12NetworkErrorO15invalidResponseyA2CmF",
+            "moduleName": "MGConnectFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "noData",
+            "printedName": "noData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MGConnectFramework.NetworkError.Type) -> MGConnectFramework.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "MGConnectFramework.NetworkError",
+                    "usr": "s:18MGConnectFramework12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MGConnectFramework.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "MGConnectFramework.NetworkError",
+                        "usr": "s:18MGConnectFramework12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18MGConnectFramework12NetworkErrorO6noDatayA2CmF",
+            "mangledName": "$s18MGConnectFramework12NetworkErrorO6noDatayA2CmF",
+            "moduleName": "MGConnectFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "MGConnectFramework.NetworkError",
+                "usr": "s:18MGConnectFramework12NetworkErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "MGConnectFramework.NetworkError",
+                "usr": "s:18MGConnectFramework12NetworkErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework12NetworkErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18MGConnectFramework12NetworkErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "MGConnectFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework12NetworkErrorO9hashValueSivp",
+            "mangledName": "$s18MGConnectFramework12NetworkErrorO9hashValueSivp",
+            "moduleName": "MGConnectFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework12NetworkErrorO9hashValueSivg",
+                "mangledName": "$s18MGConnectFramework12NetworkErrorO9hashValueSivg",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework12NetworkErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18MGConnectFramework12NetworkErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "MGConnectFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18MGConnectFramework12NetworkErrorO",
+        "mangledName": "$s18MGConnectFramework12NetworkErrorO",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "MGConnectFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BLEDelegate",
+        "printedName": "BLEDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didDiscoverDevice",
+            "printedName": "didDiscoverDevice(_:advertisementData:rssi:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework11BLEDelegateP17didDiscoverDevice_17advertisementData4rssiySo12CBPeripheralC_SDySSypGSo8NSNumberCtF",
+            "mangledName": "$s18MGConnectFramework11BLEDelegateP17didDiscoverDevice_17advertisementData4rssiySo12CBPeripheralC_SDySSypGSo8NSNumberCtF",
+            "moduleName": "MGConnectFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
+            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didConnectToDevice",
+            "printedName": "didConnectToDevice(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework11BLEDelegateP18didConnectToDeviceyySo12CBPeripheralCF",
+            "mangledName": "$s18MGConnectFramework11BLEDelegateP18didConnectToDeviceyySo12CBPeripheralCF",
+            "moduleName": "MGConnectFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
+            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDisconnectFromDevice",
+            "printedName": "didDisconnectFromDevice(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework11BLEDelegateP23didDisconnectFromDevice_5errorySo12CBPeripheralC_s5Error_pSgtF",
+            "mangledName": "$s18MGConnectFramework11BLEDelegateP23didDisconnectFromDevice_5errorySo12CBPeripheralC_s5Error_pSgtF",
+            "moduleName": "MGConnectFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
+            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveData",
+            "printedName": "didReceiveData(_:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCharacteristic",
+                "printedName": "CoreBluetooth.CBCharacteristic",
+                "usr": "c:objc(cs)CBCharacteristic"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework11BLEDelegateP14didReceiveData_4fromy10Foundation0F0V_So16CBCharacteristicCtF",
+            "mangledName": "$s18MGConnectFramework11BLEDelegateP14didReceiveData_4fromy10Foundation0F0V_So16CBCharacteristicCtF",
+            "moduleName": "MGConnectFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
+            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveError",
+            "printedName": "didReceiveError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework11BLEDelegateP15didReceiveErroryySo7NSErrorCF",
+            "mangledName": "$s18MGConnectFramework11BLEDelegateP15didReceiveErroryySo7NSErrorCF",
+            "moduleName": "MGConnectFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
+            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18MGConnectFramework11BLEDelegateP",
+        "mangledName": "$s18MGConnectFramework11BLEDelegateP",
+        "moduleName": "MGConnectFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "MGConnectFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BLEManager",
+        "printedName": "BLEManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BLEManager",
+                "printedName": "MGConnectFramework.BLEManager",
+                "usr": "c:@M@MGConnectFramework@objc(cs)BLEManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework10BLEManagerC6sharedACvpZ",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC6sharedACvpZ",
+            "moduleName": "MGConnectFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BLEManager",
+                    "printedName": "MGConnectFramework.BLEManager",
+                    "usr": "c:@M@MGConnectFramework@objc(cs)BLEManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework10BLEManagerC6sharedACvgZ",
+                "mangledName": "$s18MGConnectFramework10BLEManagerC6sharedACvgZ",
+                "moduleName": "MGConnectFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any MGConnectFramework.BLEDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvp",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvp",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MGConnectFramework.BLEDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BLEDelegate",
+                        "printedName": "any MGConnectFramework.BLEDelegate",
+                        "usr": "s:18MGConnectFramework11BLEDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvg",
+                "mangledName": "$s18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvg",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any MGConnectFramework.BLEDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BLEDelegate",
+                        "printedName": "any MGConnectFramework.BLEDelegate",
+                        "usr": "s:18MGConnectFramework11BLEDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvs",
+                "mangledName": "$s18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvs",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvM",
+                "mangledName": "$s18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvM",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startScanning",
+            "printedName": "startScanning(serviceUUIDs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[CoreBluetooth.CBUUID]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreBluetooth.CBUUID]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CBUUID",
+                        "printedName": "CoreBluetooth.CBUUID",
+                        "usr": "c:objc(cs)CBUUID"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework10BLEManagerC13startScanning12serviceUUIDsySaySo6CBUUIDCGSg_tF",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC13startScanning12serviceUUIDsySaySo6CBUUIDCGSg_tF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopScanning",
+            "printedName": "stopScanning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework10BLEManagerC12stopScanningyyF",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC12stopScanningyyF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework10BLEManagerC7connect2toySo12CBPeripheralC_tF",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC7connect2toySo12CBPeripheralC_tF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework10BLEManagerC10disconnect4fromySo12CBPeripheralC_tF",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC10disconnect4fromySo12CBPeripheralC_tF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework10BLEManagerC10disconnectyyF",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC10disconnectyyF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearBLEDataBuffer",
+            "printedName": "clearBLEDataBuffer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework10BLEManagerC18clearBLEDataBufferyyF",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC18clearBLEDataBufferyyF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeData",
+            "printedName": "writeData(_:to:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCharacteristic",
+                "printedName": "CoreBluetooth.CBCharacteristic",
+                "usr": "c:objc(cs)CBCharacteristic"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCharacteristicWriteType",
+                "printedName": "CoreBluetooth.CBCharacteristicWriteType",
+                "usr": "c:@E@CBCharacteristicWriteType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework10BLEManagerC9writeData_2to4typey10Foundation0E0V_So16CBCharacteristicCSo0I9WriteTypeVtF",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC9writeData_2to4typey10Foundation0E0V_So16CBCharacteristicCSo0I9WriteTypeVtF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendCommand",
+            "printedName": "sendCommand(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework10BLEManagerC11sendCommandyySSF",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC11sendCommandyySSF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManagerDidUpdateState",
+            "printedName": "centralManagerDidUpdateState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)centralManagerDidUpdateState:",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC28centralManagerDidUpdateStateyySo09CBCentralE0CF",
+            "moduleName": "MGConnectFramework",
+            "objc_name": "centralManagerDidUpdateState:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManager",
+            "printedName": "centralManager(_:didDiscover:advertisementData:rssi:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC14centralManager_11didDiscover17advertisementData4rssiySo09CBCentralE0C_So12CBPeripheralCSDySSypGSo8NSNumberCtF",
+            "moduleName": "MGConnectFramework",
+            "objc_name": "centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManager",
+            "printedName": "centralManager(_:didConnect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)centralManager:didConnectPeripheral:",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC14centralManager_10didConnectySo09CBCentralE0C_So12CBPeripheralCtF",
+            "moduleName": "MGConnectFramework",
+            "objc_name": "centralManager:didConnectPeripheral:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "peripheral",
+            "printedName": "peripheral(_:didDiscoverServices:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)peripheral:didDiscoverServices:",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC10peripheral_19didDiscoverServicesySo12CBPeripheralC_s5Error_pSgtF",
+            "moduleName": "MGConnectFramework",
+            "objc_name": "peripheral:didDiscoverServices:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "peripheral",
+            "printedName": "peripheral(_:didDiscoverCharacteristicsFor:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBService",
+                "printedName": "CoreBluetooth.CBService",
+                "usr": "c:objc(cs)CBService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)peripheral:didDiscoverCharacteristicsForService:error:",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC10peripheral_29didDiscoverCharacteristicsFor5errorySo12CBPeripheralC_So9CBServiceCs5Error_pSgtF",
+            "moduleName": "MGConnectFramework",
+            "objc_name": "peripheral:didDiscoverCharacteristicsForService:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManager",
+            "printedName": "centralManager(_:didDisconnectPeripheral:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)centralManager:didDisconnectPeripheral:error:",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC14centralManager_23didDisconnectPeripheral5errorySo09CBCentralE0C_So12CBPeripheralCs5Error_pSgtF",
+            "moduleName": "MGConnectFramework",
+            "objc_name": "centralManager:didDisconnectPeripheral:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "peripheral",
+            "printedName": "peripheral(_:didUpdateValueFor:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheral",
+                "printedName": "CoreBluetooth.CBPeripheral",
+                "usr": "c:objc(cs)CBPeripheral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCharacteristic",
+                "printedName": "CoreBluetooth.CBCharacteristic",
+                "usr": "c:objc(cs)CBCharacteristic"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)peripheral:didUpdateValueForCharacteristic:error:",
+            "mangledName": "$s18MGConnectFramework10BLEManagerC10peripheral_17didUpdateValueFor5errorySo12CBPeripheralC_So16CBCharacteristicCs5Error_pSgtF",
+            "moduleName": "MGConnectFramework",
+            "objc_name": "peripheral:didUpdateValueForCharacteristic:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MGConnectFramework@objc(cs)BLEManager",
+        "mangledName": "$s18MGConnectFramework10BLEManagerC",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Endpoint",
+        "printedName": "Endpoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework8EndpointP7baseURL10Foundation0E0Vvp",
+            "mangledName": "$s18MGConnectFramework8EndpointP7baseURL10Foundation0E0Vvp",
+            "moduleName": "MGConnectFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework8EndpointP7baseURL10Foundation0E0Vvg",
+                "mangledName": "$s18MGConnectFramework8EndpointP7baseURL10Foundation0E0Vvg",
+                "moduleName": "MGConnectFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
+                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework8EndpointP4pathSSvp",
+            "mangledName": "$s18MGConnectFramework8EndpointP4pathSSvp",
+            "moduleName": "MGConnectFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework8EndpointP4pathSSvg",
+                "mangledName": "$s18MGConnectFramework8EndpointP4pathSSvg",
+                "moduleName": "MGConnectFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
+                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "MGConnectFramework.HTTPMethod",
+                "usr": "s:18MGConnectFramework10HTTPMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework8EndpointP6methodAA10HTTPMethodOvp",
+            "mangledName": "$s18MGConnectFramework8EndpointP6methodAA10HTTPMethodOvp",
+            "moduleName": "MGConnectFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "MGConnectFramework.HTTPMethod",
+                    "usr": "s:18MGConnectFramework10HTTPMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework8EndpointP6methodAA10HTTPMethodOvg",
+                "mangledName": "$s18MGConnectFramework8EndpointP6methodAA10HTTPMethodOvg",
+                "moduleName": "MGConnectFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
+                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework8EndpointP7headersSDyS2SGSgvp",
+            "mangledName": "$s18MGConnectFramework8EndpointP7headersSDyS2SGSgvp",
+            "moduleName": "MGConnectFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework8EndpointP7headersSDyS2SGSgvg",
+                "mangledName": "$s18MGConnectFramework8EndpointP7headersSDyS2SGSgvg",
+                "moduleName": "MGConnectFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
+                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework8EndpointP10parametersSDySSypGSgvp",
+            "mangledName": "$s18MGConnectFramework8EndpointP10parametersSDySSypGSgvp",
+            "moduleName": "MGConnectFramework",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework8EndpointP10parametersSDySSypGSgvg",
+                "mangledName": "$s18MGConnectFramework8EndpointP10parametersSDySSypGSgvg",
+                "moduleName": "MGConnectFramework",
+                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
+                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:18MGConnectFramework8EndpointP",
+        "mangledName": "$s18MGConnectFramework8EndpointP",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethod",
+        "printedName": "HTTPMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MGConnectFramework.HTTPMethod.Type) -> MGConnectFramework.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "MGConnectFramework.HTTPMethod",
+                    "usr": "s:18MGConnectFramework10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MGConnectFramework.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "MGConnectFramework.HTTPMethod",
+                        "usr": "s:18MGConnectFramework10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18MGConnectFramework10HTTPMethodO3getyA2CmF",
+            "mangledName": "$s18MGConnectFramework10HTTPMethodO3getyA2CmF",
+            "moduleName": "MGConnectFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MGConnectFramework.HTTPMethod.Type) -> MGConnectFramework.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "MGConnectFramework.HTTPMethod",
+                    "usr": "s:18MGConnectFramework10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MGConnectFramework.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "MGConnectFramework.HTTPMethod",
+                        "usr": "s:18MGConnectFramework10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18MGConnectFramework10HTTPMethodO4postyA2CmF",
+            "mangledName": "$s18MGConnectFramework10HTTPMethodO4postyA2CmF",
+            "moduleName": "MGConnectFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MGConnectFramework.HTTPMethod.Type) -> MGConnectFramework.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "MGConnectFramework.HTTPMethod",
+                    "usr": "s:18MGConnectFramework10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MGConnectFramework.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "MGConnectFramework.HTTPMethod",
+                        "usr": "s:18MGConnectFramework10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18MGConnectFramework10HTTPMethodO3putyA2CmF",
+            "mangledName": "$s18MGConnectFramework10HTTPMethodO3putyA2CmF",
+            "moduleName": "MGConnectFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MGConnectFramework.HTTPMethod.Type) -> MGConnectFramework.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "MGConnectFramework.HTTPMethod",
+                    "usr": "s:18MGConnectFramework10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MGConnectFramework.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "MGConnectFramework.HTTPMethod",
+                        "usr": "s:18MGConnectFramework10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18MGConnectFramework10HTTPMethodO6deleteyA2CmF",
+            "mangledName": "$s18MGConnectFramework10HTTPMethodO6deleteyA2CmF",
+            "moduleName": "MGConnectFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MGConnectFramework.HTTPMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "MGConnectFramework.HTTPMethod",
+                    "usr": "s:18MGConnectFramework10HTTPMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18MGConnectFramework10HTTPMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s18MGConnectFramework10HTTPMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "MGConnectFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework10HTTPMethodO8rawValueSSvp",
+            "mangledName": "$s18MGConnectFramework10HTTPMethodO8rawValueSSvp",
+            "moduleName": "MGConnectFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework10HTTPMethodO8rawValueSSvg",
+                "mangledName": "$s18MGConnectFramework10HTTPMethodO8rawValueSSvg",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18MGConnectFramework10HTTPMethodO",
+        "mangledName": "$s18MGConnectFramework10HTTPMethodO",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetUserEndpoint",
+        "printedName": "GetUserEndpoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework15GetUserEndpointV7baseURL10Foundation0G0Vvp",
+            "mangledName": "$s18MGConnectFramework15GetUserEndpointV7baseURL10Foundation0G0Vvp",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework15GetUserEndpointV7baseURL10Foundation0G0Vvg",
+                "mangledName": "$s18MGConnectFramework15GetUserEndpointV7baseURL10Foundation0G0Vvg",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework15GetUserEndpointV4pathSSvp",
+            "mangledName": "$s18MGConnectFramework15GetUserEndpointV4pathSSvp",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework15GetUserEndpointV4pathSSvg",
+                "mangledName": "$s18MGConnectFramework15GetUserEndpointV4pathSSvg",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "MGConnectFramework.HTTPMethod",
+                "usr": "s:18MGConnectFramework10HTTPMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework15GetUserEndpointV6methodAA10HTTPMethodOvp",
+            "mangledName": "$s18MGConnectFramework15GetUserEndpointV6methodAA10HTTPMethodOvp",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "MGConnectFramework.HTTPMethod",
+                    "usr": "s:18MGConnectFramework10HTTPMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework15GetUserEndpointV6methodAA10HTTPMethodOvg",
+                "mangledName": "$s18MGConnectFramework15GetUserEndpointV6methodAA10HTTPMethodOvg",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework15GetUserEndpointV7headersSDyS2SGSgvp",
+            "mangledName": "$s18MGConnectFramework15GetUserEndpointV7headersSDyS2SGSgvp",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework15GetUserEndpointV7headersSDyS2SGSgvg",
+                "mangledName": "$s18MGConnectFramework15GetUserEndpointV7headersSDyS2SGSgvg",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18MGConnectFramework15GetUserEndpointV10parametersSDySSypGSgvp",
+            "mangledName": "$s18MGConnectFramework15GetUserEndpointV10parametersSDySSypGSgvp",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18MGConnectFramework15GetUserEndpointV10parametersSDySSypGSgvg",
+                "mangledName": "$s18MGConnectFramework15GetUserEndpointV10parametersSDySSypGSgvg",
+                "moduleName": "MGConnectFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseURL:path:method:headers:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetUserEndpoint",
+                "printedName": "MGConnectFramework.GetUserEndpoint",
+                "usr": "s:18MGConnectFramework15GetUserEndpointV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "MGConnectFramework.HTTPMethod",
+                "hasDefaultArg": true,
+                "usr": "s:18MGConnectFramework10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18MGConnectFramework15GetUserEndpointV7baseURL4path6method7headers10parametersAC10Foundation0G0V_SSAA10HTTPMethodOSDyS2SGSgSDySSypGSgtcfc",
+            "mangledName": "$s18MGConnectFramework15GetUserEndpointV7baseURL4path6method7headers10parametersAC10Foundation0G0V_SSAA10HTTPMethodOSDyS2SGSgSDySSypGSgtcfc",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18MGConnectFramework15GetUserEndpointV",
+        "mangledName": "$s18MGConnectFramework15GetUserEndpointV",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Endpoint",
+            "printedName": "Endpoint",
+            "usr": "s:18MGConnectFramework8EndpointP",
+            "mangledName": "$s18MGConnectFramework8EndpointP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MGConnectFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "CommandType",
         "printedName": "CommandType",
         "children": [
@@ -2807,2504 +5300,102 @@
             "mangledName": "$sSe"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetworkManager",
-        "printedName": "NetworkManager",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetworkManager",
-                "printedName": "MGConnectFramework.NetworkManager",
-                "usr": "s:18MGConnectFramework14NetworkManagerC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework14NetworkManagerC6sharedACvpZ",
-            "mangledName": "$s18MGConnectFramework14NetworkManagerC6sharedACvpZ",
-            "moduleName": "MGConnectFramework",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkManager",
-                    "printedName": "MGConnectFramework.NetworkManager",
-                    "usr": "s:18MGConnectFramework14NetworkManagerC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework14NetworkManagerC6sharedACvgZ",
-                "mangledName": "$s18MGConnectFramework14NetworkManagerC6sharedACvgZ",
-                "moduleName": "MGConnectFramework",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "request",
-            "printedName": "request(endpoint:responseType:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Endpoint",
-                "printedName": "any MGConnectFramework.Endpoint",
-                "usr": "s:18MGConnectFramework8EndpointP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Metatype",
-                "printedName": "τ_0_0.Type",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<τ_0_0, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<τ_0_0, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework14NetworkManagerC7request8endpoint12responseType10completionyAA8Endpoint_p_xmys6ResultOyxs5Error_pGctSeRzlF",
-            "mangledName": "$s18MGConnectFramework14NetworkManagerC7request8endpoint12responseType10completionyAA8Endpoint_p_xmys6ResultOyxs5Error_pGctSeRzlF",
-            "moduleName": "MGConnectFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
-            "sugared_genericSig": "<T where T : Swift.Decodable>",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:18MGConnectFramework14NetworkManagerC",
-        "mangledName": "$s18MGConnectFramework14NetworkManagerC",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetworkError",
-        "printedName": "NetworkError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "invalidResponse",
-            "printedName": "invalidResponse",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MGConnectFramework.NetworkError.Type) -> MGConnectFramework.NetworkError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkError",
-                    "printedName": "MGConnectFramework.NetworkError",
-                    "usr": "s:18MGConnectFramework12NetworkErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MGConnectFramework.NetworkError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetworkError",
-                        "printedName": "MGConnectFramework.NetworkError",
-                        "usr": "s:18MGConnectFramework12NetworkErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18MGConnectFramework12NetworkErrorO15invalidResponseyA2CmF",
-            "mangledName": "$s18MGConnectFramework12NetworkErrorO15invalidResponseyA2CmF",
-            "moduleName": "MGConnectFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "noData",
-            "printedName": "noData",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MGConnectFramework.NetworkError.Type) -> MGConnectFramework.NetworkError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetworkError",
-                    "printedName": "MGConnectFramework.NetworkError",
-                    "usr": "s:18MGConnectFramework12NetworkErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MGConnectFramework.NetworkError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NetworkError",
-                        "printedName": "MGConnectFramework.NetworkError",
-                        "usr": "s:18MGConnectFramework12NetworkErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18MGConnectFramework12NetworkErrorO6noDatayA2CmF",
-            "mangledName": "$s18MGConnectFramework12NetworkErrorO6noDatayA2CmF",
-            "moduleName": "MGConnectFramework"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetworkError",
-                "printedName": "MGConnectFramework.NetworkError",
-                "usr": "s:18MGConnectFramework12NetworkErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetworkError",
-                "printedName": "MGConnectFramework.NetworkError",
-                "usr": "s:18MGConnectFramework12NetworkErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework12NetworkErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s18MGConnectFramework12NetworkErrorO2eeoiySbAC_ACtFZ",
-            "moduleName": "MGConnectFramework",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework12NetworkErrorO9hashValueSivp",
-            "mangledName": "$s18MGConnectFramework12NetworkErrorO9hashValueSivp",
-            "moduleName": "MGConnectFramework",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework12NetworkErrorO9hashValueSivg",
-                "mangledName": "$s18MGConnectFramework12NetworkErrorO9hashValueSivg",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework12NetworkErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s18MGConnectFramework12NetworkErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "MGConnectFramework",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:18MGConnectFramework12NetworkErrorO",
-        "mangledName": "$s18MGConnectFramework12NetworkErrorO",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
-        "declKind": "Import",
-        "moduleName": "MGConnectFramework"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BLEDelegate",
-        "printedName": "BLEDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didDiscoverDevice",
-            "printedName": "didDiscoverDevice(_:advertisementData:rssi:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSNumber",
-                "printedName": "Foundation.NSNumber",
-                "usr": "c:objc(cs)NSNumber"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework11BLEDelegateP17didDiscoverDevice_17advertisementData4rssiySo12CBPeripheralC_SDySSypGSo8NSNumberCtF",
-            "mangledName": "$s18MGConnectFramework11BLEDelegateP17didDiscoverDevice_17advertisementData4rssiySo12CBPeripheralC_SDySSypGSo8NSNumberCtF",
-            "moduleName": "MGConnectFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
-            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didConnectToDevice",
-            "printedName": "didConnectToDevice(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework11BLEDelegateP18didConnectToDeviceyySo12CBPeripheralCF",
-            "mangledName": "$s18MGConnectFramework11BLEDelegateP18didConnectToDeviceyySo12CBPeripheralCF",
-            "moduleName": "MGConnectFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
-            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didDisconnectFromDevice",
-            "printedName": "didDisconnectFromDevice(_:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Swift.Error)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework11BLEDelegateP23didDisconnectFromDevice_5errorySo12CBPeripheralC_s5Error_pSgtF",
-            "mangledName": "$s18MGConnectFramework11BLEDelegateP23didDisconnectFromDevice_5errorySo12CBPeripheralC_s5Error_pSgtF",
-            "moduleName": "MGConnectFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
-            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didReceiveData",
-            "printedName": "didReceiveData(_:from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBCharacteristic",
-                "printedName": "CoreBluetooth.CBCharacteristic",
-                "usr": "c:objc(cs)CBCharacteristic"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework11BLEDelegateP14didReceiveData_4fromy10Foundation0F0V_So16CBCharacteristicCtF",
-            "mangledName": "$s18MGConnectFramework11BLEDelegateP14didReceiveData_4fromy10Foundation0F0V_So16CBCharacteristicCtF",
-            "moduleName": "MGConnectFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
-            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didReceiveError",
-            "printedName": "didReceiveError(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSError",
-                "printedName": "Foundation.NSError",
-                "usr": "c:objc(cs)NSError"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework11BLEDelegateP15didReceiveErroryySo7NSErrorCF",
-            "mangledName": "$s18MGConnectFramework11BLEDelegateP15didReceiveErroryySo7NSErrorCF",
-            "moduleName": "MGConnectFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.BLEDelegate>",
-            "sugared_genericSig": "<Self where Self : MGConnectFramework.BLEDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:18MGConnectFramework11BLEDelegateP",
-        "mangledName": "$s18MGConnectFramework11BLEDelegateP",
-        "moduleName": "MGConnectFramework",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
-        "declKind": "Import",
-        "moduleName": "MGConnectFramework"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BLEManager",
-        "printedName": "BLEManager",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BLEManager",
-                "printedName": "MGConnectFramework.BLEManager",
-                "usr": "c:@M@MGConnectFramework@objc(cs)BLEManager"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework10BLEManagerC6sharedACvpZ",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC6sharedACvpZ",
-            "moduleName": "MGConnectFramework",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BLEManager",
-                    "printedName": "MGConnectFramework.BLEManager",
-                    "usr": "c:@M@MGConnectFramework@objc(cs)BLEManager"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework10BLEManagerC6sharedACvgZ",
-                "mangledName": "$s18MGConnectFramework10BLEManagerC6sharedACvgZ",
-                "moduleName": "MGConnectFramework",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any MGConnectFramework.BLEDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvp",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvp",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MGConnectFramework.BLEDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BLEDelegate",
-                        "printedName": "any MGConnectFramework.BLEDelegate",
-                        "usr": "s:18MGConnectFramework11BLEDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvg",
-                "mangledName": "$s18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvg",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any MGConnectFramework.BLEDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BLEDelegate",
-                        "printedName": "any MGConnectFramework.BLEDelegate",
-                        "usr": "s:18MGConnectFramework11BLEDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvs",
-                "mangledName": "$s18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvs",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvM",
-                "mangledName": "$s18MGConnectFramework10BLEManagerC8delegateAA11BLEDelegate_pSgvM",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "startScanning",
-            "printedName": "startScanning(serviceUUIDs:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[CoreBluetooth.CBUUID]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[CoreBluetooth.CBUUID]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CBUUID",
-                        "printedName": "CoreBluetooth.CBUUID",
-                        "usr": "c:objc(cs)CBUUID"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework10BLEManagerC13startScanning12serviceUUIDsySaySo6CBUUIDCGSg_tF",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC13startScanning12serviceUUIDsySaySo6CBUUIDCGSg_tF",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopScanning",
-            "printedName": "stopScanning()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework10BLEManagerC12stopScanningyyF",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC12stopScanningyyF",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "connect",
-            "printedName": "connect(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework10BLEManagerC7connect2toySo12CBPeripheralC_tF",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC7connect2toySo12CBPeripheralC_tF",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "disconnect",
-            "printedName": "disconnect(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework10BLEManagerC10disconnect4fromySo12CBPeripheralC_tF",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC10disconnect4fromySo12CBPeripheralC_tF",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "disconnect",
-            "printedName": "disconnect()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework10BLEManagerC10disconnectyyF",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC10disconnectyyF",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "clearBLEDataBuffer",
-            "printedName": "clearBLEDataBuffer()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework10BLEManagerC18clearBLEDataBufferyyF",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC18clearBLEDataBufferyyF",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "writeData",
-            "printedName": "writeData(_:to:type:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBCharacteristic",
-                "printedName": "CoreBluetooth.CBCharacteristic",
-                "usr": "c:objc(cs)CBCharacteristic"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBCharacteristicWriteType",
-                "printedName": "CoreBluetooth.CBCharacteristicWriteType",
-                "usr": "c:@E@CBCharacteristicWriteType"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework10BLEManagerC9writeData_2to4typey10Foundation0E0V_So16CBCharacteristicCSo0I9WriteTypeVtF",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC9writeData_2to4typey10Foundation0E0V_So16CBCharacteristicCSo0I9WriteTypeVtF",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sendCommand",
-            "printedName": "sendCommand(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18MGConnectFramework10BLEManagerC11sendCommandyySSF",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC11sendCommandyySSF",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "centralManagerDidUpdateState",
-            "printedName": "centralManagerDidUpdateState(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBCentralManager",
-                "printedName": "CoreBluetooth.CBCentralManager",
-                "usr": "c:objc(cs)CBCentralManager"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)centralManagerDidUpdateState:",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC28centralManagerDidUpdateStateyySo09CBCentralE0CF",
-            "moduleName": "MGConnectFramework",
-            "objc_name": "centralManagerDidUpdateState:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "centralManager",
-            "printedName": "centralManager(_:didDiscover:advertisementData:rssi:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBCentralManager",
-                "printedName": "CoreBluetooth.CBCentralManager",
-                "usr": "c:objc(cs)CBCentralManager"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSNumber",
-                "printedName": "Foundation.NSNumber",
-                "usr": "c:objc(cs)NSNumber"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC14centralManager_11didDiscover17advertisementData4rssiySo09CBCentralE0C_So12CBPeripheralCSDySSypGSo8NSNumberCtF",
-            "moduleName": "MGConnectFramework",
-            "objc_name": "centralManager:didDiscoverPeripheral:advertisementData:RSSI:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "centralManager",
-            "printedName": "centralManager(_:didConnect:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBCentralManager",
-                "printedName": "CoreBluetooth.CBCentralManager",
-                "usr": "c:objc(cs)CBCentralManager"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)centralManager:didConnectPeripheral:",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC14centralManager_10didConnectySo09CBCentralE0C_So12CBPeripheralCtF",
-            "moduleName": "MGConnectFramework",
-            "objc_name": "centralManager:didConnectPeripheral:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "peripheral",
-            "printedName": "peripheral(_:didDiscoverServices:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Swift.Error)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)peripheral:didDiscoverServices:",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC10peripheral_19didDiscoverServicesySo12CBPeripheralC_s5Error_pSgtF",
-            "moduleName": "MGConnectFramework",
-            "objc_name": "peripheral:didDiscoverServices:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "peripheral",
-            "printedName": "peripheral(_:didDiscoverCharacteristicsFor:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBService",
-                "printedName": "CoreBluetooth.CBService",
-                "usr": "c:objc(cs)CBService"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Swift.Error)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)peripheral:didDiscoverCharacteristicsForService:error:",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC10peripheral_29didDiscoverCharacteristicsFor5errorySo12CBPeripheralC_So9CBServiceCs5Error_pSgtF",
-            "moduleName": "MGConnectFramework",
-            "objc_name": "peripheral:didDiscoverCharacteristicsForService:error:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "centralManager",
-            "printedName": "centralManager(_:didDisconnectPeripheral:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBCentralManager",
-                "printedName": "CoreBluetooth.CBCentralManager",
-                "usr": "c:objc(cs)CBCentralManager"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Swift.Error)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)centralManager:didDisconnectPeripheral:error:",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC14centralManager_23didDisconnectPeripheral5errorySo09CBCentralE0C_So12CBPeripheralCs5Error_pSgtF",
-            "moduleName": "MGConnectFramework",
-            "objc_name": "centralManager:didDisconnectPeripheral:error:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "peripheral",
-            "printedName": "peripheral(_:didUpdateValueFor:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBPeripheral",
-                "printedName": "CoreBluetooth.CBPeripheral",
-                "usr": "c:objc(cs)CBPeripheral"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CBCharacteristic",
-                "printedName": "CoreBluetooth.CBCharacteristic",
-                "usr": "c:objc(cs)CBCharacteristic"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Swift.Error)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@MGConnectFramework@objc(cs)BLEManager(im)peripheral:didUpdateValueForCharacteristic:error:",
-            "mangledName": "$s18MGConnectFramework10BLEManagerC10peripheral_17didUpdateValueFor5errorySo12CBPeripheralC_So16CBCharacteristicCs5Error_pSgtF",
-            "moduleName": "MGConnectFramework",
-            "objc_name": "peripheral:didUpdateValueForCharacteristic:error:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@MGConnectFramework@objc(cs)BLEManager",
-        "mangledName": "$s18MGConnectFramework10BLEManagerC",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Endpoint",
-        "printedName": "Endpoint",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "baseURL",
-            "printedName": "baseURL",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework8EndpointP7baseURL10Foundation0E0Vvp",
-            "mangledName": "$s18MGConnectFramework8EndpointP7baseURL10Foundation0E0Vvp",
-            "moduleName": "MGConnectFramework",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework8EndpointP7baseURL10Foundation0E0Vvg",
-                "mangledName": "$s18MGConnectFramework8EndpointP7baseURL10Foundation0E0Vvg",
-                "moduleName": "MGConnectFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
-                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "path",
-            "printedName": "path",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework8EndpointP4pathSSvp",
-            "mangledName": "$s18MGConnectFramework8EndpointP4pathSSvp",
-            "moduleName": "MGConnectFramework",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework8EndpointP4pathSSvg",
-                "mangledName": "$s18MGConnectFramework8EndpointP4pathSSvg",
-                "moduleName": "MGConnectFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
-                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "method",
-            "printedName": "method",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "HTTPMethod",
-                "printedName": "MGConnectFramework.HTTPMethod",
-                "usr": "s:18MGConnectFramework10HTTPMethodO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework8EndpointP6methodAA10HTTPMethodOvp",
-            "mangledName": "$s18MGConnectFramework8EndpointP6methodAA10HTTPMethodOvp",
-            "moduleName": "MGConnectFramework",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "HTTPMethod",
-                    "printedName": "MGConnectFramework.HTTPMethod",
-                    "usr": "s:18MGConnectFramework10HTTPMethodO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework8EndpointP6methodAA10HTTPMethodOvg",
-                "mangledName": "$s18MGConnectFramework8EndpointP6methodAA10HTTPMethodOvg",
-                "moduleName": "MGConnectFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
-                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "headers",
-            "printedName": "headers",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework8EndpointP7headersSDyS2SGSgvp",
-            "mangledName": "$s18MGConnectFramework8EndpointP7headersSDyS2SGSgvp",
-            "moduleName": "MGConnectFramework",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework8EndpointP7headersSDyS2SGSgvg",
-                "mangledName": "$s18MGConnectFramework8EndpointP7headersSDyS2SGSgvg",
-                "moduleName": "MGConnectFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
-                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "parameters",
-            "printedName": "parameters",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework8EndpointP10parametersSDySSypGSgvp",
-            "mangledName": "$s18MGConnectFramework8EndpointP10parametersSDySSypGSgvp",
-            "moduleName": "MGConnectFramework",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Any]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Any]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework8EndpointP10parametersSDySSypGSgvg",
-                "mangledName": "$s18MGConnectFramework8EndpointP10parametersSDySSypGSgvg",
-                "moduleName": "MGConnectFramework",
-                "genericSig": "<τ_0_0 where τ_0_0 : MGConnectFramework.Endpoint>",
-                "sugared_genericSig": "<Self where Self : MGConnectFramework.Endpoint>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:18MGConnectFramework8EndpointP",
-        "mangledName": "$s18MGConnectFramework8EndpointP",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "HTTPMethod",
-        "printedName": "HTTPMethod",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "get",
-            "printedName": "get",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MGConnectFramework.HTTPMethod.Type) -> MGConnectFramework.HTTPMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "HTTPMethod",
-                    "printedName": "MGConnectFramework.HTTPMethod",
-                    "usr": "s:18MGConnectFramework10HTTPMethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MGConnectFramework.HTTPMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "HTTPMethod",
-                        "printedName": "MGConnectFramework.HTTPMethod",
-                        "usr": "s:18MGConnectFramework10HTTPMethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18MGConnectFramework10HTTPMethodO3getyA2CmF",
-            "mangledName": "$s18MGConnectFramework10HTTPMethodO3getyA2CmF",
-            "moduleName": "MGConnectFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "post",
-            "printedName": "post",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MGConnectFramework.HTTPMethod.Type) -> MGConnectFramework.HTTPMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "HTTPMethod",
-                    "printedName": "MGConnectFramework.HTTPMethod",
-                    "usr": "s:18MGConnectFramework10HTTPMethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MGConnectFramework.HTTPMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "HTTPMethod",
-                        "printedName": "MGConnectFramework.HTTPMethod",
-                        "usr": "s:18MGConnectFramework10HTTPMethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18MGConnectFramework10HTTPMethodO4postyA2CmF",
-            "mangledName": "$s18MGConnectFramework10HTTPMethodO4postyA2CmF",
-            "moduleName": "MGConnectFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "put",
-            "printedName": "put",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MGConnectFramework.HTTPMethod.Type) -> MGConnectFramework.HTTPMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "HTTPMethod",
-                    "printedName": "MGConnectFramework.HTTPMethod",
-                    "usr": "s:18MGConnectFramework10HTTPMethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MGConnectFramework.HTTPMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "HTTPMethod",
-                        "printedName": "MGConnectFramework.HTTPMethod",
-                        "usr": "s:18MGConnectFramework10HTTPMethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18MGConnectFramework10HTTPMethodO3putyA2CmF",
-            "mangledName": "$s18MGConnectFramework10HTTPMethodO3putyA2CmF",
-            "moduleName": "MGConnectFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "delete",
-            "printedName": "delete",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MGConnectFramework.HTTPMethod.Type) -> MGConnectFramework.HTTPMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "HTTPMethod",
-                    "printedName": "MGConnectFramework.HTTPMethod",
-                    "usr": "s:18MGConnectFramework10HTTPMethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MGConnectFramework.HTTPMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "HTTPMethod",
-                        "printedName": "MGConnectFramework.HTTPMethod",
-                        "usr": "s:18MGConnectFramework10HTTPMethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18MGConnectFramework10HTTPMethodO6deleteyA2CmF",
-            "mangledName": "$s18MGConnectFramework10HTTPMethodO6deleteyA2CmF",
-            "moduleName": "MGConnectFramework"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MGConnectFramework.HTTPMethod?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "HTTPMethod",
-                    "printedName": "MGConnectFramework.HTTPMethod",
-                    "usr": "s:18MGConnectFramework10HTTPMethodO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18MGConnectFramework10HTTPMethodO8rawValueACSgSS_tcfc",
-            "mangledName": "$s18MGConnectFramework10HTTPMethodO8rawValueACSgSS_tcfc",
-            "moduleName": "MGConnectFramework",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework10HTTPMethodO8rawValueSSvp",
-            "mangledName": "$s18MGConnectFramework10HTTPMethodO8rawValueSSvp",
-            "moduleName": "MGConnectFramework",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework10HTTPMethodO8rawValueSSvg",
-                "mangledName": "$s18MGConnectFramework10HTTPMethodO8rawValueSSvg",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:18MGConnectFramework10HTTPMethodO",
-        "mangledName": "$s18MGConnectFramework10HTTPMethodO",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "GetUserEndpoint",
-        "printedName": "GetUserEndpoint",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "baseURL",
-            "printedName": "baseURL",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework15GetUserEndpointV7baseURL10Foundation0G0Vvp",
-            "mangledName": "$s18MGConnectFramework15GetUserEndpointV7baseURL10Foundation0G0Vvp",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework15GetUserEndpointV7baseURL10Foundation0G0Vvg",
-                "mangledName": "$s18MGConnectFramework15GetUserEndpointV7baseURL10Foundation0G0Vvg",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "path",
-            "printedName": "path",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework15GetUserEndpointV4pathSSvp",
-            "mangledName": "$s18MGConnectFramework15GetUserEndpointV4pathSSvp",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework15GetUserEndpointV4pathSSvg",
-                "mangledName": "$s18MGConnectFramework15GetUserEndpointV4pathSSvg",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "method",
-            "printedName": "method",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "HTTPMethod",
-                "printedName": "MGConnectFramework.HTTPMethod",
-                "usr": "s:18MGConnectFramework10HTTPMethodO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework15GetUserEndpointV6methodAA10HTTPMethodOvp",
-            "mangledName": "$s18MGConnectFramework15GetUserEndpointV6methodAA10HTTPMethodOvp",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "HTTPMethod",
-                    "printedName": "MGConnectFramework.HTTPMethod",
-                    "usr": "s:18MGConnectFramework10HTTPMethodO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework15GetUserEndpointV6methodAA10HTTPMethodOvg",
-                "mangledName": "$s18MGConnectFramework15GetUserEndpointV6methodAA10HTTPMethodOvg",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "headers",
-            "printedName": "headers",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework15GetUserEndpointV7headersSDyS2SGSgvp",
-            "mangledName": "$s18MGConnectFramework15GetUserEndpointV7headersSDyS2SGSgvp",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework15GetUserEndpointV7headersSDyS2SGSgvg",
-                "mangledName": "$s18MGConnectFramework15GetUserEndpointV7headersSDyS2SGSgvg",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "parameters",
-            "printedName": "parameters",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18MGConnectFramework15GetUserEndpointV10parametersSDySSypGSgvp",
-            "mangledName": "$s18MGConnectFramework15GetUserEndpointV10parametersSDySSypGSgvp",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Any]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Any]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18MGConnectFramework15GetUserEndpointV10parametersSDySSypGSgvg",
-                "mangledName": "$s18MGConnectFramework15GetUserEndpointV10parametersSDySSypGSgvg",
-                "moduleName": "MGConnectFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(baseURL:path:method:headers:parameters:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GetUserEndpoint",
-                "printedName": "MGConnectFramework.GetUserEndpoint",
-                "usr": "s:18MGConnectFramework15GetUserEndpointV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "hasDefaultArg": true,
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "HTTPMethod",
-                "printedName": "MGConnectFramework.HTTPMethod",
-                "hasDefaultArg": true,
-                "usr": "s:18MGConnectFramework10HTTPMethodO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18MGConnectFramework15GetUserEndpointV7baseURL4path6method7headers10parametersAC10Foundation0G0V_SSAA10HTTPMethodOSDyS2SGSgSDySSypGSgtcfc",
-            "mangledName": "$s18MGConnectFramework15GetUserEndpointV7baseURL4path6method7headers10parametersAC10Foundation0G0V_SSAA10HTTPMethodOSDyS2SGSgSDySSypGSgtcfc",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:18MGConnectFramework15GetUserEndpointV",
-        "mangledName": "$s18MGConnectFramework15GetUserEndpointV",
-        "moduleName": "MGConnectFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Endpoint",
-            "printedName": "Endpoint",
-            "usr": "s:18MGConnectFramework8EndpointP",
-            "mangledName": "$s18MGConnectFramework8EndpointP"
-          }
-        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "Array",
+      "offset": 331,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8911,
+      "length": 7,
+      "value": "\"Hc05 \""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9082,
+      "length": 13,
+      "value": "\" 50cH\r\n\u0000\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9129,
+      "length": 11,
+      "value": "\" 50cH\r\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9174,
+      "length": 9,
+      "value": "\" 50cH\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9217,
+      "length": 9,
+      "value": "\" 50cH\r\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9260,
+      "length": 7,
+      "value": "\" 50cH\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/GetUserEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 388,
+      "length": 25,
+      "value": "\"https:\/\/api.example.com\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/GetUserEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 9,
+      "value": "\"users\/1\""
+    },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
       "kind": "IntegerLiteral",
@@ -5513,7 +5604,7 @@
       "kind": "StringLiteral",
       "offset": 484,
       "length": 9,
-      "value": "\"1.00.18\""
+      "value": "\"1.00.19\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
@@ -5567,114 +5658,23 @@
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
-      "offset": 80251,
+      "offset": 80887,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
-      "offset": 80287,
+      "offset": 80923,
       "length": 10,
       "value": "\"Callular\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
-      "offset": 80322,
+      "offset": 80958,
       "length": 14,
       "value": "\"Disconnected\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
-      "kind": "Array",
-      "offset": 331,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8911,
-      "length": 7,
-      "value": "\"Hc05 \""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9082,
-      "length": 13,
-      "value": "\" 50cH\r\n\u0000\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9129,
-      "length": 11,
-      "value": "\" 50cH\r\n\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9174,
-      "length": 9,
-      "value": "\" 50cH\n\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9217,
-      "length": 9,
-      "value": "\" 50cH\r\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9260,
-      "length": 7,
-      "value": "\" 50cH\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 374,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 396,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 418,
-      "length": 5,
-      "value": "\"PUT\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 442,
-      "length": 8,
-      "value": "\"DELETE\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/GetUserEndpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 388,
-      "length": 25,
-      "value": "\"https:\/\/api.example.com\""
-    },
-    {
-      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/GetUserEndpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 452,
-      "length": 9,
-      "value": "\"users\/1\""
     }
   ]
 }

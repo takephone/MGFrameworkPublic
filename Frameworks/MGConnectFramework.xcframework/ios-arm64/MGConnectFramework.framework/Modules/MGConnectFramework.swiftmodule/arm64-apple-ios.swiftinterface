@@ -12,6 +12,77 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class NetworkManager {
+  public static let shared: MGConnectFramework.NetworkManager
+  public func request<T>(endpoint: any MGConnectFramework.Endpoint, responseType: T.Type, completion: @escaping (Swift.Result<T, any Swift.Error>) -> Swift.Void) where T : Swift.Decodable
+  @objc deinit
+}
+public enum NetworkError : Swift.Error {
+  case invalidResponse
+  case noData
+  public static func == (a: MGConnectFramework.NetworkError, b: MGConnectFramework.NetworkError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol BLEDelegate : AnyObject {
+  func didDiscoverDevice(_ peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi: Foundation.NSNumber)
+  func didConnectToDevice(_ peripheral: CoreBluetooth.CBPeripheral)
+  func didDisconnectFromDevice(_ peripheral: CoreBluetooth.CBPeripheral, error: (any Swift.Error)?)
+  func didReceiveData(_ data: Foundation.Data, from characteristic: CoreBluetooth.CBCharacteristic)
+  func didReceiveError(_ error: Foundation.NSError)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BLEManager : ObjectiveC.NSObject {
+  public static let shared: MGConnectFramework.BLEManager
+  weak public var delegate: (any MGConnectFramework.BLEDelegate)?
+  public func startScanning(serviceUUIDs: [CoreBluetooth.CBUUID]? = nil)
+  public func stopScanning()
+  public func connect(to peripheral: CoreBluetooth.CBPeripheral)
+  public func disconnect(from peripheral: CoreBluetooth.CBPeripheral)
+  public func disconnect()
+  public func clearBLEDataBuffer()
+  public func writeData(_ data: Foundation.Data, to characteristic: CoreBluetooth.CBCharacteristic, type: CoreBluetooth.CBCharacteristicWriteType)
+  public func sendCommand(_ command: Swift.String)
+  @objc deinit
+}
+extension MGConnectFramework.BLEManager : CoreBluetooth.CBCentralManagerDelegate {
+  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDiscover peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi RSSI: Foundation.NSNumber)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didConnect peripheral: CoreBluetooth.CBPeripheral)
+  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverServices error: (any Swift.Error)?)
+  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth.CBService, error: (any Swift.Error)?)
+  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDisconnectPeripheral peripheral: CoreBluetooth.CBPeripheral, error: (any Swift.Error)?)
+}
+extension MGConnectFramework.BLEManager : CoreBluetooth.CBPeripheralDelegate {
+  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: (any Swift.Error)?)
+}
+public protocol Endpoint {
+  var baseURL: Foundation.URL { get }
+  var path: Swift.String { get }
+  var method: MGConnectFramework.HTTPMethod { get }
+  var headers: [Swift.String : Swift.String]? { get }
+  var parameters: [Swift.String : Any]? { get }
+}
+public enum HTTPMethod : Swift.String {
+  case get
+  case post
+  case put
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct GetUserEndpoint : MGConnectFramework.Endpoint {
+  public let baseURL: Foundation.URL
+  public let path: Swift.String
+  public let method: MGConnectFramework.HTTPMethod
+  public let headers: [Swift.String : Swift.String]?
+  public let parameters: [Swift.String : Any]?
+  public init(baseURL: Foundation.URL = URL(string: "https://api.example.com")!, path: Swift.String = "users/1", method: MGConnectFramework.HTTPMethod = .get, headers: [Swift.String : Swift.String]? = nil, parameters: [Swift.String : Any]? = nil)
+}
 @objc public enum CommandType : Swift.Int, Swift.CustomStringConvertible {
   case blockEngine = 1
   case unlockEngine
@@ -107,77 +178,11 @@ public enum MGNetworkState : Swift.String {
 public struct User : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class NetworkManager {
-  public static let shared: MGConnectFramework.NetworkManager
-  public func request<T>(endpoint: any MGConnectFramework.Endpoint, responseType: T.Type, completion: @escaping (Swift.Result<T, any Swift.Error>) -> Swift.Void) where T : Swift.Decodable
-  @objc deinit
-}
-public enum NetworkError : Swift.Error {
-  case invalidResponse
-  case noData
-  public static func == (a: MGConnectFramework.NetworkError, b: MGConnectFramework.NetworkError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public protocol BLEDelegate : AnyObject {
-  func didDiscoverDevice(_ peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi: Foundation.NSNumber)
-  func didConnectToDevice(_ peripheral: CoreBluetooth.CBPeripheral)
-  func didDisconnectFromDevice(_ peripheral: CoreBluetooth.CBPeripheral, error: (any Swift.Error)?)
-  func didReceiveData(_ data: Foundation.Data, from characteristic: CoreBluetooth.CBCharacteristic)
-  func didReceiveError(_ error: Foundation.NSError)
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class BLEManager : ObjectiveC.NSObject {
-  public static let shared: MGConnectFramework.BLEManager
-  weak public var delegate: (any MGConnectFramework.BLEDelegate)?
-  public func startScanning(serviceUUIDs: [CoreBluetooth.CBUUID]? = nil)
-  public func stopScanning()
-  public func connect(to peripheral: CoreBluetooth.CBPeripheral)
-  public func disconnect(from peripheral: CoreBluetooth.CBPeripheral)
-  public func disconnect()
-  public func clearBLEDataBuffer()
-  public func writeData(_ data: Foundation.Data, to characteristic: CoreBluetooth.CBCharacteristic, type: CoreBluetooth.CBCharacteristicWriteType)
-  public func sendCommand(_ command: Swift.String)
-  @objc deinit
-}
-extension MGConnectFramework.BLEManager : CoreBluetooth.CBCentralManagerDelegate {
-  @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
-  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDiscover peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Any], rssi RSSI: Foundation.NSNumber)
-  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didConnect peripheral: CoreBluetooth.CBPeripheral)
-  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverServices error: (any Swift.Error)?)
-  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didDiscoverCharacteristicsFor service: CoreBluetooth.CBService, error: (any Swift.Error)?)
-  @objc dynamic public func centralManager(_ central: CoreBluetooth.CBCentralManager, didDisconnectPeripheral peripheral: CoreBluetooth.CBPeripheral, error: (any Swift.Error)?)
-}
-extension MGConnectFramework.BLEManager : CoreBluetooth.CBPeripheralDelegate {
-  @objc dynamic public func peripheral(_ peripheral: CoreBluetooth.CBPeripheral, didUpdateValueFor characteristic: CoreBluetooth.CBCharacteristic, error: (any Swift.Error)?)
-}
-public protocol Endpoint {
-  var baseURL: Foundation.URL { get }
-  var path: Swift.String { get }
-  var method: MGConnectFramework.HTTPMethod { get }
-  var headers: [Swift.String : Swift.String]? { get }
-  var parameters: [Swift.String : Any]? { get }
-}
-public enum HTTPMethod : Swift.String {
-  case get
-  case post
-  case put
-  case delete
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public struct GetUserEndpoint : MGConnectFramework.Endpoint {
-  public let baseURL: Foundation.URL
-  public let path: Swift.String
-  public let method: MGConnectFramework.HTTPMethod
-  public let headers: [Swift.String : Swift.String]?
-  public let parameters: [Swift.String : Any]?
-  public init(baseURL: Foundation.URL = URL(string: "https://api.example.com")!, path: Swift.String = "users/1", method: MGConnectFramework.HTTPMethod = .get, headers: [Swift.String : Swift.String]? = nil, parameters: [Swift.String : Any]? = nil)
-}
+extension MGConnectFramework.NetworkError : Swift.Equatable {}
+extension MGConnectFramework.NetworkError : Swift.Hashable {}
+extension MGConnectFramework.HTTPMethod : Swift.Equatable {}
+extension MGConnectFramework.HTTPMethod : Swift.Hashable {}
+extension MGConnectFramework.HTTPMethod : Swift.RawRepresentable {}
 extension MGConnectFramework.CommandType : Swift.Equatable {}
 extension MGConnectFramework.CommandType : Swift.Hashable {}
 extension MGConnectFramework.CommandType : Swift.RawRepresentable {}
@@ -187,8 +192,3 @@ extension MGConnectFramework.FunctionName : Swift.RawRepresentable {}
 extension MGConnectFramework.MGNetworkState : Swift.Equatable {}
 extension MGConnectFramework.MGNetworkState : Swift.Hashable {}
 extension MGConnectFramework.MGNetworkState : Swift.RawRepresentable {}
-extension MGConnectFramework.NetworkError : Swift.Equatable {}
-extension MGConnectFramework.NetworkError : Swift.Hashable {}
-extension MGConnectFramework.HTTPMethod : Swift.Equatable {}
-extension MGConnectFramework.HTTPMethod : Swift.Hashable {}
-extension MGConnectFramework.HTTPMethod : Swift.RawRepresentable {}

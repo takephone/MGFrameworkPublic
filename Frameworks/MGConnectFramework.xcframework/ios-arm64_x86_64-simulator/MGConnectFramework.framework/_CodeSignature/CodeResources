@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8PREe5UcBxSt2K4h0w+KZXLbunQ=
+		toPbrrpgN0grI0CyxGfH3tXdw/I=
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CGv3XwmStvtnXPOaLPd+AQ6Sz+Q=
+		hIo5hvQHp76dDIoTX0shFFbjqBA=
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CGv3XwmStvtnXPOaLPd+AQ6Sz+Q=
+		hIo5hvQHp76dDIoTX0shFFbjqBA=
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pgZ2E8latmvxp+PNA1GsYuW3cTU=
+		OeV7wRuccIHi+0NUruQifu8EOvU=
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8PREe5UcBxSt2K4h0w+KZXLbunQ=
+		toPbrrpgN0grI0CyxGfH3tXdw/I=
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		R+OxwOBjcQqBIr+R43Vq9DM/d5c=
+		z9GfwRcRgFgxxYz94mBw3R2qlfE=
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		R+OxwOBjcQqBIr+R43Vq9DM/d5c=
+		z9GfwRcRgFgxxYz94mBw3R2qlfE=
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		H+YS9QtEvohd389Z0MR/PmU42nc=
+		SwI+JvGI/Oz04eR5WQHE8t5UNWg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/haT+2ZYe2z5nVbCLvyft4k3DOrEFJgih1GXdCiRBo=
+			eibsg6gz+shtbXdC0KFJqI57zndO9xcJ1PS3H6ZTYFI=
 			</data>
 		</dict>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dqEiuFEOAJiJDP3jaAKtTQF0NKiVsJ/y0hD4jxcnbCQ=
+			3okKbI3bQ4Om73Z5MsittAol29aVjnKZdIJ/CP2bt9g=
 			</data>
 		</dict>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dqEiuFEOAJiJDP3jaAKtTQF0NKiVsJ/y0hD4jxcnbCQ=
+			3okKbI3bQ4Om73Z5MsittAol29aVjnKZdIJ/CP2bt9g=
 			</data>
 		</dict>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iGdqO69TVWxTcAyVwgugvXPGplOrtgAP/y4B0z9C8ko=
+			LixEtfsoeiX51n5BbX8azKpArvz4G98EcTyvU3pHNow=
 			</data>
 		</dict>
 		<key>Modules/MGConnectFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/haT+2ZYe2z5nVbCLvyft4k3DOrEFJgih1GXdCiRBo=
+			eibsg6gz+shtbXdC0KFJqI57zndO9xcJ1PS3H6ZTYFI=
 			</data>
 		</dict>
 		<key>Modules/MGConnectFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P3WjLgtz9HoAqRxhJi9lsJIXJidRgDQn6mnUNFsAxvo=
+			IqFIQA8jyCL1dMsOmSbA9M6baIf46ysTyfRwFnneY3g=
 			</data>
 		</dict>
 		<key>Modules/MGConnectFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P3WjLgtz9HoAqRxhJi9lsJIXJidRgDQn6mnUNFsAxvo=
+			IqFIQA8jyCL1dMsOmSbA9M6baIf46ysTyfRwFnneY3g=
 			</data>
 		</dict>
 		<key>Modules/MGConnectFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OTVdZS3gZjI0T7gdSsDs00EIMdxcpVpvQheHdKacaGk=
+			AYleZxK0WnB0Utj/v4slBfPu1a/r+VfjmAMXi4d5WnM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
