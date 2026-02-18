@@ -2287,6 +2287,47 @@
           },
           {
             "kind": "Var",
+            "name": "stamValue",
+            "printedName": "stamValue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MGConnectFramework.CommandType.Type) -> MGConnectFramework.CommandType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CommandType",
+                    "printedName": "MGConnectFramework.CommandType",
+                    "usr": "c:@M@MGConnectFramework@E@CommandType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MGConnectFramework.CommandType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CommandType",
+                        "printedName": "MGConnectFramework.CommandType",
+                        "usr": "c:@M@MGConnectFramework@E@CommandType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@MGConnectFramework@E@CommandType@CommandTypeStamValue",
+            "mangledName": "$s18MGConnectFramework11CommandTypeO9stamValueyA2CmF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
             "name": "verifyKey",
             "printedName": "verifyKey",
             "children": [
@@ -2320,47 +2361,6 @@
             "declKind": "EnumElement",
             "usr": "c:@M@MGConnectFramework@E@CommandType@CommandTypeVerifyKey",
             "mangledName": "$s18MGConnectFramework11CommandTypeO9verifyKeyyA2CmF",
-            "moduleName": "MGConnectFramework",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 4
-          },
-          {
-            "kind": "Var",
-            "name": "replaceKey",
-            "printedName": "replaceKey",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MGConnectFramework.CommandType.Type) -> MGConnectFramework.CommandType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CommandType",
-                    "printedName": "MGConnectFramework.CommandType",
-                    "usr": "c:@M@MGConnectFramework@E@CommandType"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MGConnectFramework.CommandType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CommandType",
-                        "printedName": "MGConnectFramework.CommandType",
-                        "usr": "c:@M@MGConnectFramework@E@CommandType"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@MGConnectFramework@E@CommandType@CommandTypeReplaceKey",
-            "mangledName": "$s18MGConnectFramework11CommandTypeO10replaceKeyyA2CmF",
             "moduleName": "MGConnectFramework",
             "declAttributes": [
               "ObjC"
@@ -3051,7 +3051,6 @@
             "mangledName": "$s18MGConnectFramework12FunctionNameO14getCarDataByBTyA2CmF",
             "moduleName": "MGConnectFramework",
             "declAttributes": [
-              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 8
@@ -3462,7 +3461,6 @@
             "mangledName": "$s18MGConnectFramework12FunctionNameO17sendDoneByNetworkyA2CmF",
             "moduleName": "MGConnectFramework",
             "declAttributes": [
-              "RawDocComment",
               "ObjC"
             ],
             "fixedbinaryorder": 18
@@ -3736,7 +3734,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(onConnectionStateChanged:onConnectionError:onDataReceiveData:onDataError:)",
+            "printedName": "init(onConnectionStateChanged:onConnectionError:onDataReceiveData:onDataError:onShowToast:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3877,11 +3875,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18MGConnectFramework0A3SDKC24onConnectionStateChanged0dE5Error0d11DataReceiveI00diH0ACyAA09MGNetworkF0OcSg_ySo7NSErrorCcSgySS_So8NSObjectCtcSgySS_ALtcSgtcfc",
-            "mangledName": "$s18MGConnectFramework0A3SDKC24onConnectionStateChanged0dE5Error0d11DataReceiveI00diH0ACyAA09MGNetworkF0OcSg_ySo7NSErrorCcSgySS_So8NSObjectCtcSgySS_ALtcSgtcfc",
+            "usr": "s:18MGConnectFramework0A3SDKC24onConnectionStateChanged0dE5Error0d11DataReceiveI00diH00D9ShowToastACyAA09MGNetworkF0OcSg_ySo7NSErrorCcSgySS_So8NSObjectCtcSgySS_AMtcSgySScSgtcfc",
+            "mangledName": "$s18MGConnectFramework0A3SDKC24onConnectionStateChanged0dE5Error0d11DataReceiveI00diH00D9ShowToastACyAA09MGNetworkF0OcSg_ySo7NSErrorCcSgySS_So8NSObjectCtcSgySS_AMtcSgySScSgtcfc",
             "moduleName": "MGConnectFramework",
             "declAttributes": [
               "AccessControl",
@@ -4079,6 +4104,27 @@
             "declKind": "Func",
             "usr": "s:18MGConnectFramework0A3SDKC18didConnectToDeviceyySo12CBPeripheralCF",
             "mangledName": "$s18MGConnectFramework0A3SDKC18didConnectToDeviceyySo12CBPeripheralCF",
+            "moduleName": "MGConnectFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendAuthDriverCode",
+            "printedName": "sendAuthDriverCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18MGConnectFramework0A3SDKC18sendAuthDriverCodeyyF",
+            "mangledName": "$s18MGConnectFramework0A3SDKC18sendAuthDriverCodeyyF",
             "moduleName": "MGConnectFramework",
             "declAttributes": [
               "AccessControl",
@@ -5260,345 +5306,373 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
       "kind": "Array",
       "offset": 331,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
       "kind": "StringLiteral",
-      "offset": 8594,
+      "offset": 8911,
+      "length": 7,
+      "value": "\"Hc05 \""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9082,
+      "length": 13,
+      "value": "\" 50cH\r\n\u0000\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9129,
+      "length": 11,
+      "value": "\" 50cH\r\n\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9174,
       "length": 9,
-      "value": "\"Hc05kek\""
+      "value": "\" 50cH\n\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
       "kind": "StringLiteral",
-      "offset": 8653,
-      "length": 6,
-      "value": "\"50cH\""
+      "offset": 9217,
+      "length": 9,
+      "value": "\" 50cH\r\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9260,
+      "length": 7,
+      "value": "\" 50cH\""
+    },
+    {
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 418,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 442,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/GetUserEndpoint.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/GetUserEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 388,
       "length": 25,
       "value": "\"https:\/\/api.example.com\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/GetUserEndpoint.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Endpoint\/GetUserEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 452,
       "length": 9,
       "value": "\"users\/1\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
       "kind": "IntegerLiteral",
       "offset": 205,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 12,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
       "kind": "IntegerLiteral",
       "offset": 256,
       "length": 10,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
       "kind": "IntegerLiteral",
       "offset": 276,
       "length": 9,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
-      "length": 10,
+      "length": 9,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
       "kind": "IntegerLiteral",
-      "offset": 315,
+      "offset": 314,
       "length": 10,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/CommandType.swift",
       "kind": "IntegerLiteral",
-      "offset": 335,
+      "offset": 334,
       "length": 4,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
       "offset": 223,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 14,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 12,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
       "offset": 290,
       "length": 14,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 15,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
       "offset": 339,
       "length": 16,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
       "offset": 365,
       "length": 13,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 424,
+      "offset": 388,
       "length": 14,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 448,
+      "offset": 412,
       "length": 12,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 470,
+      "offset": 434,
       "length": 14,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 495,
+      "offset": 459,
       "length": 16,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 521,
+      "offset": 485,
       "length": 19,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 550,
+      "offset": 514,
       "length": 17,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 577,
+      "offset": 541,
       "length": 19,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 606,
+      "offset": 570,
       "length": 20,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 636,
+      "offset": 600,
       "length": 21,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 667,
+      "offset": 631,
       "length": 18,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 736,
+      "offset": 659,
       "length": 17,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/Enums\/FunctionName.swift",
       "kind": "IntegerLiteral",
-      "offset": 763,
+      "offset": 686,
       "length": 19,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 46,
       "value": "\"https:\/\/api.otofusion.com\/cgi-bin\/UvYiQK35u5\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 9,
-      "value": "\"1.00.14\""
+      "value": "\"1.00.18\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
       "offset": 679,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
       "offset": 730,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 1005,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "Array",
       "offset": 1097,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
-      "offset": 74965,
+      "offset": 80251,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
-      "offset": 75001,
+      "offset": 80287,
       "length": 10,
       "value": "\"Callular\""
     },
     {
-      "filePath": "\/Users\/takephone\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
+      "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
-      "offset": 75036,
+      "offset": 80322,
       "length": 14,
       "value": "\"Disconnected\""
     }
