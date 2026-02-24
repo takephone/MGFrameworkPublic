@@ -5315,42 +5315,42 @@
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
       "kind": "StringLiteral",
-      "offset": 8911,
+      "offset": 9216,
       "length": 7,
       "value": "\"Hc05 \""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
       "kind": "StringLiteral",
-      "offset": 9082,
+      "offset": 9387,
       "length": 13,
       "value": "\" 50cH\r\n\u0000\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
       "kind": "StringLiteral",
-      "offset": 9129,
+      "offset": 9434,
       "length": 11,
       "value": "\" 50cH\r\n\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
       "kind": "StringLiteral",
-      "offset": 9174,
+      "offset": 9479,
       "length": 9,
       "value": "\" 50cH\n\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
       "kind": "StringLiteral",
-      "offset": 9217,
+      "offset": 9522,
       "length": 9,
       "value": "\" 50cH\r\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/BLE\/BLEManager.swift",
       "kind": "StringLiteral",
-      "offset": 9260,
+      "offset": 9565,
       "length": 7,
       "value": "\" 50cH\""
     },
@@ -5604,7 +5604,7 @@
       "kind": "StringLiteral",
       "offset": 484,
       "length": 9,
-      "value": "\"1.00.19\""
+      "value": "\"1.00.22\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
@@ -5658,21 +5658,21 @@
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
-      "offset": 80887,
+      "offset": 81700,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
-      "offset": 80923,
+      "offset": 81736,
       "length": 10,
       "value": "\"Callular\""
     },
     {
       "filePath": "\/Users\/user\/shellp\/MGConnectFramework\/MGConnectFramework\/MGConnectSDK\/MGConnectSDK.swift",
       "kind": "StringLiteral",
-      "offset": 80958,
+      "offset": 81771,
       "length": 14,
       "value": "\"Disconnected\""
     }

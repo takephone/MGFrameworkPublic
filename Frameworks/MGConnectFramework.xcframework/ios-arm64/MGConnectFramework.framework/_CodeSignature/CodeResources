@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YxfJs/NXSQpDH16UjljQeF95kFI=
+		6yjPhmrBuen7QrKlsNhkSvBYRJY=
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9XOCo80qVmyTG6q1+9TXgUCovZc=
+		PcnI07A0xcl+5NurMU03vILMR5U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jRl7lq09TOpnYw+2ADuxBn8RGzV4nR9F/jawyEPBtyg=
+			/jffhsTBj5Xkjyh1a5NxgzPF3ngxdBU1rH8pfHLLBMY=
 			</data>
 		</dict>
 		<key>Modules/MGConnectFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRepL7+4/2Vq923ZNfEpOwZIOjcmIVqnj/V/zdi7IBU=
+			b8KWO9YQC3GtOoUWuFS5cAyEQ6eYl9Eiic44teXuFeQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
